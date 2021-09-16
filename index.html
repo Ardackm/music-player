@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!-- İcon -->
+    <link rel="icon" href="images/music.jpg">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <audio id="music"></audio>
+
+    <div class="titlebar">
+        <div class="appName">
+            <p>Music Player</p>
+        </div>
+
+        <div class="close" id="close" title="close">
+            <i class="fas fa-time"></i>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="img">
+            <img src="images/music.jpg" alt="music" id="animation">
+        </div>
+
+        <div class="musicNmae">
+            <h1 id="name">Music Name</h1>
+        </div>
+
+        <div class="wave">
+            <div id="wave">
+                <div id="point"></div>
+            </div>
+            <div class="current">
+                <p id="current">00:00</p>
+                <p id="time">00:00</p>
+            </div>
+        </div>
+
+        <div class="btn">
+            <i class="fas fa-play" id="play"></i>
+        </div>
+    </div>
+
+    <div class="usage">
+        <p>Open Music: CTRL+O</p>
+    </div>
+
+
+    <!-- JavaScript -->
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "Web Music Player Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Ardackm",
+  "license": "ISC"
+}
